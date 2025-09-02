@@ -1,0 +1,17 @@
+{
+    "name": "escape-game/booking",
+    "description": "Gestion de réservations pour un Escape Game",
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
